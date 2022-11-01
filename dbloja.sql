@@ -52,6 +52,11 @@ select * from tbFuncionarios;
 select * from tbUsuarios;
 
 --alterando os registros da tabelas
-update tbUsuarios set senha = '124323578';
+update tbUsuarios set senha = '124323578' where codusu =2;
 
-select * from tbUsuarios
+select * from tbUsuarios;
+
+-- excluindo os regristros da tabelas
+delete from tbUsuarios where codusu=1;
+
+select * from tbUsuarios;
